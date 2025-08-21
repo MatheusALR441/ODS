@@ -18,6 +18,7 @@ header {
   padding: 10px;
   padding-bottom: 5px;
   margin 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 
 }
 
@@ -59,6 +60,11 @@ footer {
   padding: 20px;
   margin: 20px 0;
   border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .metas{
@@ -67,6 +73,11 @@ footer {
   padding: 20px;
   margin: 20px 0;
   border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .acoes{
@@ -75,6 +86,17 @@ footer {
   padding: 20px;
   margin: 20px 0;
   border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.acoes div{
+
+  flex: 1 1 300px;
+  max-width: 200px;
 }
 
 .ajuda{
@@ -83,12 +105,18 @@ footer {
   padding: 20px;
   margin: 20px 0;
   border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .apoio {
 
   width: 80px;
-  margin-left: 600px;
   display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
 }
 
